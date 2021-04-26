@@ -1,12 +1,53 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
-
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'SEBANG_Gothic_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HealthsetGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HealthsetGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+h1
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -333,7 +374,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: rgba(255, 255, 255, 0.875);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: HealthsetGothicLight, Helvetica, sans-serif;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 0.75rem 0;
@@ -359,7 +400,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 2rem;
 		line-height: 1.2;
 	}
 
@@ -477,7 +518,7 @@ input, select, textarea {
 		}
 
 		h1 {
-			font-size: 2.25rem;
+			font-size: 1.25rem;
 			line-height: 1.2;
 		}
 
@@ -1548,11 +1589,11 @@ input, select, textarea {
 		button.icon.circle,
 		.button.icon.circle {
 			position: relative;
-			width: 3.125rem;
-			height: 3.125rem;
-			line-height: 3.125rem;
-			text-indent: 3.125rem;
-			border-radius: 100%;
+			width: 2.125rem;
+			height: 2.125rem;
+			line-height: 2.125rem;
+			text-indent: 2.125rem;
+			border-radius: 0%;
 			overflow: hidden;
 			padding: 0;
 			letter-spacing: 0;
@@ -1591,8 +1632,8 @@ input, select, textarea {
 			button.icon.circle.fa-angle-right:before,
 			.button.icon.circle.fa-angle-right:before {
 				position: relative;
-				left: 0.1rem;
-				font-size: 1.75rem;
+				left: 0.05rem;
+				font-size: 1.25rem;
 			}
 
 		input[type="submit"].fit,
@@ -2195,7 +2236,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-color: #a79cb0;
 				background-size: 128px 128px, auto;
 			}
 
@@ -2544,11 +2585,11 @@ input, select, textarea {
 		}
 
 		.panel.medium {
-			width: 50rem;
+			width: 98rem;
 		}
 
 		.panel.large {
-			width: 65rem;
+			width: 98rem;
 		}
 
 		.panel.small .span-0-25, .panel.medium .span-0-25, .panel.large .span-0-25 {
@@ -3410,7 +3451,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
+			padding: 3.5rem 3.5rem 2rem 4.5rem ;
 		}
 
 		.panel.spotlight .image {
